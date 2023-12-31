@@ -86,15 +86,4 @@ class SumoEnvironment:
     def close(self):
             traci.close()
 
-    # Example usage
-if __name__ == "__main__":
-        sumo_cfg_file = "path/to/your/haya.sumocfg"
-        env = SumoEnvironment(sumo_cfg_file)
-        state = env.reset()
-        done = False
 
-        while not done:
-            action = np.random.choice([0, 1])  # Example: Random action
-            next_state, reward, done = env.step(action)
-
-        env.close()
