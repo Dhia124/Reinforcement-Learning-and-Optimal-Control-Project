@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-31 15:40:01 by Eclipse SUMO netedit Version 1.18.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_CONTAINERTYPE" vClass="motorcycle" color="blue"/>
+    <vType id="DEFAULT_VEHTYPE" vClass="taxi" carFollowModel="KraussOrig1"/>
+    <vType id="t_0"/>
+    <!-- Routes -->
+    <route id="r_0" edges="E5 E6" color="yellow"/>
+    <route id="r_1" edges="E5 E6" color="red"/>
+    <route id="r_11" edges="E5 E6" color="yellow"/>
+    <route id="r_12" edges="E5 E6" color="yellow"/>
+    <route id="r_13" edges="E5 E6" color="yellow"/>
+    <route id="r_14" edges="E5 E6" color="yellow"/>
+    <route id="r_15" edges="E5 E6" color="yellow"/>
+    <route id="r_16" edges="E5 E6" color="red"/>
+    <route id="r_17" edges="E5 E6" color="yellow"/>
+    <route id="r_2" edges="E5 E6" color="blue"/>
+    <route id="r_3" edges="E5 E6" color="yellow"/>
+    <route id="r_6" edges="E5" color="yellow"/>
+    <route id="r_7" edges="E5 E6" color="blue"/>
+    <route id="r_8" edges="E5 E6" color="yellow"/>
+    <route id="r_9" edges="E5" color="yellow"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <trip id="t_3" depart="0.00" from="E3" to="E6"/>
+    <trip id="t_8" depart="0.00" departPos="6.00" color="red" from="E3" to="E6"/>
+    <vehicle id="t_0" type="t_0" depart="0.00" color="cyan" route="r_15"/>
+    <vehicle id="t_1" type="DEFAULT_CONTAINERTYPE" depart="0.00" route="r_13"/>
+    <vehicle id="t_13" type="t_0" depart="0.00" color="128,0,128" route="r_7"/>
+    <vehicle id="t_14" type="t_0" depart="0.00" color="139,131,120" route="r_8"/>
+    <vehicle id="t_2" type="DEFAULT_CONTAINERTYPE" depart="0.00" route="r_16"/>
+    <vehicle id="t_4" type="DEFAULT_CONTAINERTYPE" depart="0.00" color="255,71,0" route="r_17"/>
+    <vehicle id="t_5" depart="0.00" color="255,0,205" route="r_12"/>
+    <vehicle id="t_6" type="t_0" depart="0.00" color="128,0,0" route="r_14"/>
+    <vehicle id="t_7" type="t_0" depart="0.00" route="r_11"/>
+    <vehicle id="t_9" depart="0.00" route="r_9"/>
+</routes>
